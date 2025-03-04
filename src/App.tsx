@@ -9,6 +9,7 @@ import { MainLayout } from "./layouts/main-layout";
 
 import { SignInPage } from "./routes/Sign-in";
 import { SignUpPage } from "./routes/Sign-up";
+// import { NavigationRoutes } from "./components/navigation-container";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
           }
         >
           {/* add all the protected routes */}
+          {/* <NavigationRoutes/> */}
         </Route>
         
       </Routes>
