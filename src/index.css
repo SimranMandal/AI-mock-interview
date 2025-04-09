@@ -73,4 +73,19 @@
     /*Top-right*/ -1px 1px 0 rgba(0, 0, 0, 0.6),
     /*Bottom-left*/ 1px 1px 0 rgba(0, 0, 0, 0.6); /*Bottom-right*/
   }
+
+  .section-contact {
+    @apply w-full;
+  }
+  
+  .contact-map {
+    @apply rounded-lg overflow-hidden;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contact-map {
+      min-height: 300px;
+    }
+  }
 }
